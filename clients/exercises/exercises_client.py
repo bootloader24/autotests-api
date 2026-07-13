@@ -21,7 +21,7 @@ class ExercisesClient(APIClient):
         """
         return self.get(
             "/api/v1/exercises",
-            params=QueryParams(query.model_dump(by_alias=True))
+            params=query.model_dump(by_alias=True)
         )
 
     def get_exercise_api(self, exercise_id: str) -> Response:

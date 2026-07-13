@@ -20,7 +20,7 @@ class CoursesClient(APIClient):
         """
         return self.get(
             "/api/v1/courses",
-            params=QueryParams(query.model_dump(by_alias=True))
+            params=query.model_dump(by_alias=True)
         )
 
     def get_course_api(self, course_id: str) -> Response:
