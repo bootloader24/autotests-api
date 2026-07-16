@@ -1,10 +1,14 @@
-# Тестовые функции
-def test_user_login():
-    assert 1 == 1
+def test_first_try():
+    print("Hello World!")  # Для вывода print() в консоль добавляем к pytest параметр "-s"
 
 
-# Тестовые классы
-class TestUserAuthentication:
-    # Конструктора (__init__()) в тестовых классах быть не должно
-    def test_login(self):
-        assert 1 == 1
+def test_second_try():
+    pass
+
+
+class TestUserLogin:
+    def test_one(self):
+        pass
+
+    def test_two(self):
+        pass
