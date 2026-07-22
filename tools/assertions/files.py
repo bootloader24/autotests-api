@@ -102,3 +102,35 @@ def assert_file_not_found_response(actual: InternalErrorResponseSchema):
     expected = InternalErrorResponseSchema(details="File not found")
     # Используем ранее созданную функцию для проверки внутренней ошибки
     assert_internal_error_response(actual, expected)
+
+
+def assert_get_file_with_incorrect_file_id_response(actual: ValidationErrorResponseSchema):
+    """
+        Проверяет, что ответ на запрос на получение файла с некорректным значением file_id
+        соответствует ожидаемой валидационной ошибке.
+
+        :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
+        :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
+        """
+    expected = ValidationErrorResponseSchema(
+        details=[
+            ValidationErrorSchema(
+                type="uuid_parsing",  # Тип ошибки, связанной с парсингом UUID
+                input="incorrect-file-id",  # Некорректное значение file_id, переданное в запросе
+                context={
+                    "error": (
+                        "invalid character: expected an optional prefix "
+                        "of `urn:uuid:` followed by [0-9a-fA-F-], "
+                        "found `i` at 1"
+                    )
+                },  # Ошибка парсинга: Строка должна быть стандартным UUID, но на первой позиции найден символ i.
+                message=(
+                    "Input should be a valid UUID, invalid character: "
+                    "expected an optional prefix of `urn:uuid:` "
+                    "followed by [0-9a-fA-F-], found `i` at 1"
+                ),  # Сообщение об ошибке валидации.
+                location=["path", "file_id"]  # Ошибка возникает в параметрах пути в поле "file_id".
+            )
+        ]
+    )
+    assert_validation_error_response(actual, expected)
