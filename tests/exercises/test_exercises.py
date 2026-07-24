@@ -2,6 +2,7 @@ from http import HTTPStatus
 
 import pytest
 
+from clients.errors_schema import InternalErrorResponseSchema
 from clients.exercises.exercises_client import ExercisesClient
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema, \
     GetExerciseResponseSchema, UpdateExerciseRequestSchema, UpdateExerciseResponseSchema
@@ -9,7 +10,7 @@ from fixtures.courses import CourseFixture
 from fixtures.exercises import ExerciseFixture
 from tools.assertions.base import assert_status_code
 from tools.assertions.exercises import assert_create_exercise_response, assert_get_exercise_response, \
-    assert_update_exercise_response
+    assert_update_exercise_response, assert_exercise_not_found_response
 from tools.assertions.schema import validate_json_schema
 
 
@@ -74,3 +75,26 @@ class TestExercises:
 
         # Валидируем JSON-схему ответа
         validate_json_schema(response.json(), response_data.model_json_schema())
+
+    def test_delete_exercise(
+            self,
+            exercises_client: ExercisesClient,
+            function_exercise: ExerciseFixture
+    ):
+        # Удаляем задание
+        delete_response = exercises_client.delete_exercise_api(function_exercise.response.exercise.id)
+        # Проверяем, что сервер вернул статус-код 200 OK
+        assert_status_code(delete_response.status_code, HTTPStatus.OK)
+
+        # Пытаемся получить удаленное задание
+        get_response = exercises_client.get_exercise_api(function_exercise.response.exercise.id)
+        # Преобразуем JSON-ответ в объект схемы
+        get_response_data = InternalErrorResponseSchema.model_validate_json(get_response.text)
+
+        # Проверяем, что сервер вернул статус-код 404 Not Found
+        assert_status_code(get_response.status_code, HTTPStatus.NOT_FOUND)
+        # Проверяем, что в ответе содержится ошибка "Exercise not found"
+        assert_exercise_not_found_response(get_response_data)
+
+        # Валидируем JSON-схему ответа
+        validate_json_schema(get_response.json(), get_response_data.model_json_schema())
