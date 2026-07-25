@@ -7,6 +7,7 @@ from clients.users.private_users_client import PrivateUsersClient
 from clients.users.public_users_client import PublicUsersClient
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, GetUserResponseSchema
 from fixtures.users import UserFixture
+from tools.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
 from tools.assertions.schema import validate_json_schema
 from tools.assertions.users import assert_create_user_response, assert_get_user_response
@@ -15,9 +16,11 @@ from tools.fakers import fake
 
 @pytest.mark.users
 @pytest.mark.regression
+@allure.tag(AllureTag.USERS, AllureTag.REGRESSION)
 class TestUsers:
 
     @pytest.mark.parametrize("domain", ["mail.ru", "gmail.com", "example.com"])  # Параметризируем по domain в email
+    @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.title("Create user")
     def test_create_user(self, domain: str, public_users_client: PublicUsersClient):  # Используем фикстуру API клиента
         # Формируем тело запроса на создание пользователя с параметризованным доменом в поле email
@@ -37,6 +40,7 @@ class TestUsers:
         # Проверяем, что тело ответа соответствует ожидаемой JSON-схеме
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.tag(AllureTag.GET_ENTITY)
     @allure.title("Get user me")
     def test_get_user_me(
             self,

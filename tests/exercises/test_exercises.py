@@ -10,6 +10,7 @@ from clients.exercises.exercises_schema import CreateExerciseRequestSchema, Crea
     GetExercisesResponseSchema
 from fixtures.courses import CourseFixture
 from fixtures.exercises import ExerciseFixture
+from tools.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
 from tools.assertions.exercises import assert_create_exercise_response, assert_get_exercise_response, \
     assert_update_exercise_response, assert_exercise_not_found_response, assert_get_exercises_response
@@ -18,8 +19,10 @@ from tools.assertions.schema import validate_json_schema
 
 @pytest.mark.exercises
 @pytest.mark.regression
+@allure.tag(AllureTag.EXERCISES, AllureTag.REGRESSION)
 class TestExercises:
 
+    @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.title("Create exercise")
     def test_create_exercise(
             self,
@@ -41,6 +44,7 @@ class TestExercises:
         # Валидируем JSON-схему ответа
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.tag(AllureTag.GET_ENTITY)
     @allure.title("Get exercise")
     def test_get_exercise(
             self,
@@ -60,6 +64,7 @@ class TestExercises:
         # Проверяем соответствие JSON-ответа схеме
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.tag(AllureTag.UPDATE_ENTITY)
     @allure.title("Update exercise")
     def test_update_exercise(
             self,
@@ -81,6 +86,7 @@ class TestExercises:
         # Валидируем JSON-схему ответа
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.tag(AllureTag.DELETE_ENTITY)
     @allure.title("Delete exercise")
     def test_delete_exercise(
             self,
@@ -105,6 +111,7 @@ class TestExercises:
         # Валидируем JSON-схему ответа
         validate_json_schema(get_response.json(), get_response_data.model_json_schema())
 
+    @allure.tag(AllureTag.GET_ENTITIES)
     @allure.title("Get exercises")
     def test_get_exercises(
             self,
