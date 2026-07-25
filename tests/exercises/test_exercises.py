@@ -1,5 +1,6 @@
 from http import HTTPStatus
 
+import allure
 import pytest
 
 from clients.errors_schema import InternalErrorResponseSchema
@@ -19,6 +20,7 @@ from tools.assertions.schema import validate_json_schema
 @pytest.mark.regression
 class TestExercises:
 
+    @allure.title("Create exercise")
     def test_create_exercise(
             self,
             exercises_client: ExercisesClient,
@@ -39,6 +41,7 @@ class TestExercises:
         # Валидируем JSON-схему ответа
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.title("Get exercise")
     def test_get_exercise(
             self,
             exercises_client: ExercisesClient,
@@ -57,6 +60,7 @@ class TestExercises:
         # Проверяем соответствие JSON-ответа схеме
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.title("Update exercise")
     def test_update_exercise(
             self,
             exercises_client: ExercisesClient,
@@ -77,6 +81,7 @@ class TestExercises:
         # Валидируем JSON-схему ответа
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.title("Delete exercise")
     def test_delete_exercise(
             self,
             exercises_client: ExercisesClient,
@@ -100,6 +105,7 @@ class TestExercises:
         # Валидируем JSON-схему ответа
         validate_json_schema(get_response.json(), get_response_data.model_json_schema())
 
+    @allure.title("Get exercises")
     def test_get_exercises(
             self,
             exercises_client: ExercisesClient,

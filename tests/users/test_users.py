@@ -1,5 +1,6 @@
 from http import HTTPStatus
 
+import allure
 import pytest
 
 from clients.users.private_users_client import PrivateUsersClient
@@ -15,7 +16,9 @@ from tools.fakers import fake
 @pytest.mark.users
 @pytest.mark.regression
 class TestUsers:
+
     @pytest.mark.parametrize("domain", ["mail.ru", "gmail.com", "example.com"])  # Параметризируем по domain в email
+    @allure.title("Create user")
     def test_create_user(self, domain: str, public_users_client: PublicUsersClient):  # Используем фикстуру API клиента
         # Формируем тело запроса на создание пользователя с параметризованным доменом в поле email
         request = CreateUserRequestSchema(email=fake.email(domain=domain))
@@ -34,6 +37,7 @@ class TestUsers:
         # Проверяем, что тело ответа соответствует ожидаемой JSON-схеме
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.title("Get user me")
     def test_get_user_me(
             self,
             private_users_client: PrivateUsersClient,
