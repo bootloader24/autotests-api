@@ -5,6 +5,7 @@ from clients.api_client import APIClient
 from clients.courses.courses_schema import GetCoursesQuerySchema, CreateCourseRequestSchema, \
     UpdateCourseRequestSchema, CreateCourseResponseSchema
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
+from tools.routes import APIRoutes
 
 
 class CoursesClient(APIClient):
@@ -21,7 +22,7 @@ class CoursesClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.get(
-            "/api/v1/courses",
+            APIRoutes.COURSES,
             params=query.model_dump(by_alias=True)
         )
 
@@ -33,7 +34,7 @@ class CoursesClient(APIClient):
         :param course_id: Идентификатор курса.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get(f"/api/v1/courses/{course_id}")
+        return self.get(f"{APIRoutes.COURSES}/{course_id}")
 
     @allure.step("Create course")
     def create_course_api(self, request: CreateCourseRequestSchema) -> Response:
@@ -45,7 +46,7 @@ class CoursesClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post(
-            "/api/v1/courses",
+            APIRoutes.COURSES,
             json=request.model_dump(by_alias=True)
         )
 
@@ -59,7 +60,7 @@ class CoursesClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.patch(
-            f"/api/v1/courses/{course_id}",
+            f"{APIRoutes.COURSES}/{course_id}",
             json=request.model_dump(by_alias=True)
         )
 
@@ -71,7 +72,7 @@ class CoursesClient(APIClient):
         :param course_id: Идентификатор курса.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.delete(f"/api/v1/courses/{course_id}")
+        return self.delete(f"{APIRoutes.COURSES}/{course_id}")
 
     def create_course(self, request: CreateCourseRequestSchema) -> CreateCourseResponseSchema:
         response = self.create_course_api(request)
