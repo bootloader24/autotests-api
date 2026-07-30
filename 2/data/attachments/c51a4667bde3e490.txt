@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjI3OjIwLjI1NDY3OCIsInVzZXJfaWQiOiJjMGY1ZDYxYi00ZjZjLTRjNTctYWEyMi01ZWI4MzNhMGI5NjcifQ.-Y0cj-0G26B-wt6NBPZOzT3Z4uTjkSOLN9JwPvbTS-8' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Help family trade represent.","maxScore":75,"minScore":6,"description":"Fish experience live add. Local himself week fund him.\nEffect trip rule artist meet common director. Century religious its.","estimatedTime":"10 weeks","previewFileId":"2dc37bd7-029e-4ed5-95db-7f1246e0201c","createdByUserId":"c0f5d61b-4f6c-4c57-aa22-5eb833a0b967"}'

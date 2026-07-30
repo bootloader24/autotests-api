@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjI3OjIzLjI3NzQ2MiIsInVzZXJfaWQiOiI5NGJmNGVhYy1hNGM3LTRhZjEtYjk0Zi05MjliYzdlZTM3ZGEifQ.nXu_1Cd3EF6kAuyU8ZpBftfSNIK9muHreK1bL0TxLTA' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everyone floor wall significant.","courseId":"2b7da3de-75b3-4610-a3fc-20e65b0abff2","maxScore":82,"minScore":28,"orderIndex":16,"description":"Gun believe financial recent my book treatment.\nPosition process heavy happy actually anyone. Yeah usually establish role. Vote one success season. Reflect main moment industry again lose letter.","estimatedTime":"5 weeks"}'

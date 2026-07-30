@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjI3OjIxLjU4Nzk4NCIsInVzZXJfaWQiOiJhY2ZkNDZlMC1kNWU0LTRmMjQtYmI0Zi01NTY0NzBmMzA3YmMifQ.AzIus8FLZKS8P7f67D5g23pol5jZss5RM-NmQLfnjJ0' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"About concern year finish wear fill enough.","maxScore":87,"minScore":17,"description":"Authority middle entire little better performance month. They hospital across growth maintain improve. Risk owner dark enter notice.\nStock market such century chair. Number lay billion international.","estimatedTime":"4 weeks","previewFileId":"d0de36a7-c8a7-4383-b0c3-947aed126061","createdByUserId":"acfd46e0-d5e4-4f24-bb4f-556470f307bc"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjI3OjIzLjI3NzQ2MiIsInVzZXJfaWQiOiI5NGJmNGVhYy1hNGM3LTRhZjEtYjk0Zi05MjliYzdlZTM3ZGEifQ.nXu_1Cd3EF6kAuyU8ZpBftfSNIK9muHreK1bL0TxLTA' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Community camera vote indicate benefit herself final.","maxScore":75,"minScore":19,"description":"Character according window author. Process worry decade able say town. Measure defense sea floor production with by.","estimatedTime":"7 weeks","previewFileId":"914a25e5-c01a-42d7-bff7-0e5759098096","createdByUserId":"94bf4eac-a4c7-4af1-b94f-929bc7ee37da"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjI3OjE4LjI1Njk3NyIsInVzZXJfaWQiOiJmYWM5MTAyYi1lOGI0LTQ2N2YtODEyMi0yMGZkZmNhNmMyY2YifQ.X7kYc9M8Gt1HMghxvZ2U9V8b6AC0GeUGhFrAa94kBIs' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yourself box find range.","maxScore":85,"minScore":19,"description":"Professor blood begin top different happen game clear. State speak character event card note.\nRepublican something once any during onto. They catch local leg. Trade able let them.","estimatedTime":"6 weeks","previewFileId":"19435ffc-2966-422a-ab6b-55fbf2b1aa80","createdByUserId":"fac9102b-e8b4-467f-8122-20fdfca6c2cf"}'

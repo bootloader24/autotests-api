@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjI3OjIwLjkzNzQwMSIsInVzZXJfaWQiOiJhYjUwNzkyOC00ZTZkLTQ5ZDktODQwMy1lNDQ4MzI0ZDUzMTAifQ.R67Ej7x-Wi60D82t-dOko0kuvDG6qmhfeIWry6xXGoE' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sound describe type serve movie different husband church.","maxScore":84,"minScore":10,"description":"Campaign lose none season. Positive around once service bit build. Owner truth newspaper kitchen item discuss.","estimatedTime":"3 weeks","previewFileId":"eb6f21d5-5e7e-4c0f-8d73-c03fa8d88d9a","createdByUserId":"ab507928-4e6d-49d9-8403-e448324d5310"}'

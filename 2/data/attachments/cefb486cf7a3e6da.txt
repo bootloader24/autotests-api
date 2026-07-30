@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjI3OjE4Ljk1MTUyMyIsInVzZXJfaWQiOiI1Y2Y2OTQxOS1iODMzLTRkNmMtOGJmYS01MmE4MTViYzNmY2MifQ.SJEdN25fEYQS_dFXHakmQvl7QcFARH3-Cuos7r5YI0k' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fall second chance item this life whether.","maxScore":98,"minScore":2,"description":"Teach memory include do maybe. City speech build. Culture realize give it whole.\nAccount of six health.","estimatedTime":"10 weeks","previewFileId":"d8a747c2-41ca-4575-85ed-ada794413bb9","createdByUserId":"5cf69419-b833-4d6c-8bfa-52a815bc3fcc"}'

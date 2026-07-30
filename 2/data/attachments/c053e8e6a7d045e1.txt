@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjI3OjE5LjYwNTIxNiIsInVzZXJfaWQiOiIxZDFjOGYwMC1hOTk2LTQ1NTItYWZjMS1kMTNjMzgyNGViNmUifQ.7BZUK5iIl2tG2h6NpajwA2eWhYbUOcHeEgPfnnuN1Kw' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Determine anyone worry.","maxScore":59,"minScore":27,"description":"Manage reflect act sister. Sell teacher young theory become among home.\nVote lot too place environment laugh. Magazine executive article effect.\nRed all indeed Congress address trial.","estimatedTime":"6 weeks","previewFileId":"c6f380bd-425c-4210-9d2b-471eae5ec7d1","createdByUserId":"1d1c8f00-a996-4552-afc1-d13c3824eb6e"}'

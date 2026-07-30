@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjI3OjI0LjYyNTY5MiIsInVzZXJfaWQiOiI0NDI1ODQ4YS1jODQ1LTRhYTItODRjNC0yYzcxNWQ3MGQ5NDMifQ.vg3ngxucAMGuUM48Tuyojx3IV5o6JfwW2Qu0YFgg9oc' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Parent attention ask left cut.","maxScore":84,"minScore":12,"description":"Trip television behind Republican surface friend. Walk teacher bad present everyone cup. Share son send plant sure imagine best make.","estimatedTime":"5 weeks","previewFileId":"8ae9b8de-c735-4cff-a016-804309a3f31a","createdByUserId":"4425848a-c845-4aa2-84c4-2c715d70d943"}'

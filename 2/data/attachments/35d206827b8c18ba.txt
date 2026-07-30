@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b5a09343-721d-4175-8719-176de60e0f24' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjI3OjIwLjI1NDY3OCIsInVzZXJfaWQiOiJjMGY1ZDYxYi00ZjZjLTRjNTctYWEyMi01ZWI4MzNhMGI5NjcifQ.-Y0cj-0G26B-wt6NBPZOzT3Z4uTjkSOLN9JwPvbTS-8' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pass television owner yourself against.","maxScore":77,"minScore":19,"description":"Dinner yet against attack operation. Imagine white read inside each partner design provide. South feeling wall.\nDemocrat wish chance book. Institution performance new skin.","estimatedTime":"3 weeks"}'

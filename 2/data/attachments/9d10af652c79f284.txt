@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjI3OjIxLjU4Nzk4NCIsInVzZXJfaWQiOiJhY2ZkNDZlMC1kNWU0LTRmMjQtYmI0Zi01NTY0NzBmMzA3YmMifQ.AzIus8FLZKS8P7f67D5g23pol5jZss5RM-NmQLfnjJ0' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Example develop next season western run subject.","courseId":"fd0c5d4b-a363-484b-967b-2b939ccc3261","maxScore":60,"minScore":23,"orderIndex":1,"description":"Across magazine appear look condition group something. Bad seat simply dog local food nature prepare. Hot whom out discuss woman.","estimatedTime":"1 weeks"}'
