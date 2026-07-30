@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjE5OjE1LjU4MDI1NCIsInVzZXJfaWQiOiIzYTBjOTUxZi0zMzJjLTRiY2QtOGZjZi05MGU1N2NlMmRmYWIifQ.EyCIVn9udlCOAnzE4cjTLxrUZOf_Dpm7jNObNsd6GZU' \
+  -H 'content-length: 433' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Strategy work day power behind cover suggest.","maxScore":69,"minScore":4,"description":"Scientist why lose strong doctor. National house military cause visit still.\nHuman pattern set staff world. Direction team be morning everybody. Significant rate address action away seat black.","estimatedTime":"1 weeks","previewFileId":"fa43e539-723d-4d07-b905-cc63c233221d","createdByUserId":"3a0c951f-332c-4bcd-8fcf-90e57ce2dfab"}'

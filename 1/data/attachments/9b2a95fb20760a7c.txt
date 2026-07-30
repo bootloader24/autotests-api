@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjE5OjE1LjAwNTE3OSIsInVzZXJfaWQiOiI5ZjAwZjQ5ZC1hYWRhLTQyMDYtYTA0OC02ZTc2MzQ1OWI3MDgifQ.5SLAau4sTSXfMNRcGLinL5-1Cr1sGEpguycsJOttIS8' \
+  -H 'content-length: 433' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Century special plan marriage arrive ten watch.","maxScore":89,"minScore":16,"description":"Scientist run blue people feel blue. Want their address could about party.\nRole participant everything drop statement speech partner. Billion fight majority fill. But concern campaign style.","estimatedTime":"3 weeks","previewFileId":"893024d7-18a8-42b8-b4d4-16da393742f0","createdByUserId":"9f00f49d-aada-4206-a048-6e763459b708"}'

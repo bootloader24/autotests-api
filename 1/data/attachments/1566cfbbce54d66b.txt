@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjE5OjE2LjEwNTY5NSIsInVzZXJfaWQiOiJkZDBiZDZmYi02MzFiLTQ4MjgtYWRiMS05ZDk3ZTlkMWE2YzIifQ.QMdU3vrAe4Q_QLsLdS3NqXaMm59pMrt_i4R2lv62xTQ' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Product whose area him.","maxScore":87,"minScore":13,"description":"Poor painting scene. No particular carry whom. Across stand return cost.\nAdministration meet central like.","estimatedTime":"5 weeks","previewFileId":"dfef1c79-defb-4964-aebc-81e13b04f691","createdByUserId":"dd0bd6fb-631b-4828-adb1-9d97e9d1a6c2"}'

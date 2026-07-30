@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjE5OjE3LjA4OTQyMCIsInVzZXJfaWQiOiI5MTdhODZjMS01NGZjLTQxN2MtYTA5ZC1mOWZhZGM2ZDE2NTQifQ.Ov7q_EFJ1tmtHPwTa1acDG8ChX29Q6NK-EOuhm8Dhwo' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bank quite record list.","maxScore":90,"minScore":8,"description":"Since three share ask however.\nEnvironment just moment. Phone lose edge. Including throw recognize soon property help.","estimatedTime":"9 weeks","previewFileId":"6f17dd0a-0b08-4edf-8ed2-e348a9a3802d","createdByUserId":"917a86c1-54fc-417c-a09d-f9fadc6d1654"}'

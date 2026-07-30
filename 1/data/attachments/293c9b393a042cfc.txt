@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjE5OjE5LjcwNzY3MiIsInVzZXJfaWQiOiI4MzM3Zjg0NS02YmVjLTQ2NWItYmUxZi05NmRhNWQyOWI3NTYifQ.KLWQTP5LduN41no3u5FCLKL_Ni8jOrlxJuG5IegvuO0' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Black model drug education available.","maxScore":51,"minScore":18,"description":"Economic pressure travel organization low product. Produce coach perform require.\nUs finally hope baby. Fast outside successful life.\nCouple prove high term adult together ok.","estimatedTime":"8 weeks","previewFileId":"c238cdfd-6f8d-454f-aef8-07ab0543ce11","createdByUserId":"8337f845-6bec-465b-be1f-96da5d29b756"}'

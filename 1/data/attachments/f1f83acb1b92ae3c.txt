@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/74b44c99-d3e1-4b56-af7e-9ae61e94dbe0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjE5OjE1LjU4MDI1NCIsInVzZXJfaWQiOiIzYTBjOTUxZi0zMzJjLTRiY2QtOGZjZi05MGU1N2NlMmRmYWIifQ.EyCIVn9udlCOAnzE4cjTLxrUZOf_Dpm7jNObNsd6GZU' \
+  -H 'content-length: 264' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Activity control social view on name now.","maxScore":96,"minScore":12,"description":"Light stuff citizen. Through his get ready. Reflect beautiful news environment order amount.\nTest if many she. Avoid year choice case from.","estimatedTime":"4 weeks"}'

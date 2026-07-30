@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjE5OjE0LjQ3NTc5MSIsInVzZXJfaWQiOiJkNjNkZDdkNy04MDc2LTQzOGYtOTdhMC0wNDMyNTllMTZhMzEifQ.Z5-ETIAmdpQBb7HOIr591rxNmfOo-w79wzmIaRjKahA' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lead development according.","maxScore":93,"minScore":13,"description":"Recognize down pretty eight up indicate movie. Piece huge game stuff method trip home.","estimatedTime":"9 weeks","previewFileId":"ed299969-68f7-47b4-a485-59dedb6a2c07","createdByUserId":"d63dd7d7-8076-438f-97a0-043259e16a31"}'

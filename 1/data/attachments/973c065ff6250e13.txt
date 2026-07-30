@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjE5OjE4LjEyMzk2MiIsInVzZXJfaWQiOiIwMWEwOTEyNS1jMTJjLTRhNWUtOTdjOS0xY2YyZDAyMDU3ZTAifQ.ZeasyAKMxtyn3Tqcvd56BgIDJShdHOozNnzMkc9fAMI' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Arrive professor like turn look finish.","maxScore":79,"minScore":25,"description":"End character plant station cut wear drop. Bit partner life.\nOffice machine together employee today talk hour. Minute throughout result blood only space.","estimatedTime":"9 weeks","previewFileId":"5446a702-022d-45ac-8f50-2831df50e493","createdByUserId":"01a09125-c12c-4a5e-97c9-1cf2d02057e0"}'

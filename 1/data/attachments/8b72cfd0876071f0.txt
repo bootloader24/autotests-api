@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDE5OjE5OjEzLjk0ODgwOSIsInVzZXJfaWQiOiIzMjgxNGMwMS1jZDY3LTQ5NmUtYWQ2YS0yNTU1Njk0Mzg2NjcifQ.gw7-dGMEDOm0_xXKRHcCrXblyWc6SNitKrMxNaQbRug' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Book hair expert recently.","maxScore":57,"minScore":12,"description":"Subject impact best single president. Letter even price thank knowledge. Sell friend toward himself. Know soon address sense heart.","estimatedTime":"7 weeks","previewFileId":"a09b09d4-f4cf-443e-aa4b-c77539e15371","createdByUserId":"32814c01-cd67-496e-ad6a-255569438667"}'
