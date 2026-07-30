@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDIwOjA4OjQ3LjY3NzkzMyIsInVzZXJfaWQiOiJlMmE1M2I2ZC0zZmI2LTQwNmEtOGM3YS0xYzM3M2M1ZWVjMGUifQ.UG0QgKs20SZOejcpc4NDDPLad9RPazTpQys9HUhFujY' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Article less effect college record sometimes finish think.","maxScore":68,"minScore":22,"description":"Well mind PM dinner money although. Responsibility until or development.\nDiscussion race as major candidate hope old. Until as measure single probably north let.","estimatedTime":"2 weeks","previewFileId":"52c67d97-0788-4c07-95bf-37c774bafbb7","createdByUserId":"e2a53b6d-3fb6-406a-8c7a-1c373c5eec0e"}'

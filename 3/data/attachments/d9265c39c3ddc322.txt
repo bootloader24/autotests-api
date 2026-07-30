@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDIwOjA4OjQ0LjYzOTg5OCIsInVzZXJfaWQiOiI3ZGY0NGNkMS1jNjIzLTQ1MGUtYjcyMy1jMDNkODU0YzE3MTQifQ.xvT5P6LUq6QIR5Et4laDOp1kIzpv0x0T4SDCk6VW9rQ' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Business somebody through forward anything movement.","maxScore":100,"minScore":23,"description":"Reveal owner next. Space painting discuss true.\nProbably bed affect popular behind member mouth. Full ago sport analysis never.","estimatedTime":"9 weeks","previewFileId":"0bdb46ff-db0e-4dfb-8324-ecff317b9e16","createdByUserId":"7df44cd1-c623-450e-b723-c03d854c1714"}'

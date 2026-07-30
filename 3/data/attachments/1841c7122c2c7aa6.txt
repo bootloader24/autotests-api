@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDIwOjA4OjQ1LjIyMjU4OCIsInVzZXJfaWQiOiI1OGE0ODdiMC01OGQ3LTRlNzItYThjMy1lZTU1ODJjOTVkYmQifQ.PQd-fx42MVfh2ahXHPQg3_Fo5_IlQ22YANBOb6lFXFc' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Science blue surface thousand.","maxScore":87,"minScore":18,"description":"Support bank serious. Mind pretty matter girl year. Only actually nearly data week discover.\nPoor network choose source toward face. Your already picture word. Others exactly front agree anything.","estimatedTime":"7 weeks","previewFileId":"1ba2efe5-49bf-4751-9477-553c73159ba2","createdByUserId":"58a487b0-58d7-4e72-a8c3-ee5582c95dbd"}'

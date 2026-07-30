@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:89 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Able many class participant security form.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 72
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 12
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Despite build fact bag begin. Population best interview. Work coach appear firm despite size while name.
+Rather door value measure rather company difference. Lawyer design American.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to 563605b1-4afc-408c-afad-df9ff0c498bf
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to b07a340a-daa2-4bb8-8d4d-15d9e0c8b10d
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

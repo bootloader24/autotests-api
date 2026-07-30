@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDIwOjA4OjQ1Ljg1NzAxNiIsInVzZXJfaWQiOiJjMDliOWQwMC1kZGUxLTQzYTEtODUwZS03MDYxNWJhMmY5ZjMifQ.pY7eDdhoT0bi1rG6XQp-TZmfzhfj0sTJfRe0Hd3OsZc' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Court mother most pretty.","maxScore":54,"minScore":11,"description":"Again he adult like always too. International tree some officer daughter sense.\nBoth give successful property exist range system. Now standard rather. Piece enough project detail visit offer.","estimatedTime":"1 weeks","previewFileId":"edcd41be-e89f-4b9a-b5c0-a6cfdeda4960","createdByUserId":"c09b9d00-dde1-43a1-850e-70615ba2f9f3"}'

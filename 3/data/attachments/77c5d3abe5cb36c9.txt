@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDIwOjA4OjQ5LjE1ODI2MSIsInVzZXJfaWQiOiIxM2M1ZDcxZC1lNTcwLTRkZjUtODYzYS1hN2RhNjRlYzI4MDgifQ.btiRTho8roNDItTeOl8TOe3tlLJY8XtyZRXWVvb9bjg' \
+  -H 'content-length: 281' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Next growth individual join.","maxScore":100,"minScore":4,"description":"Of data person grow. Thousand that save show increase now.","estimatedTime":"8 weeks","previewFileId":"f34a47b7-3c88-499c-8934-44e43b7bd7e3","createdByUserId":"13c5d71d-e570-4df5-863a-a7da64ec2808"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDIwOjA4OjQ1Ljg1NzAxNiIsInVzZXJfaWQiOiJjMDliOWQwMC1kZGUxLTQzYTEtODUwZS03MDYxNWJhMmY5ZjMifQ.pY7eDdhoT0bi1rG6XQp-TZmfzhfj0sTJfRe0Hd3OsZc' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attack marriage west course.","courseId":"1df5ebd4-4f01-48bb-b4d2-2f0826902c22","maxScore":94,"minScore":11,"orderIndex":72,"description":"Main baby sense production because happen. Manager high environmental manager. Security painting factor crime establish join material. Less shake condition alone end.","estimatedTime":"3 weeks"}'

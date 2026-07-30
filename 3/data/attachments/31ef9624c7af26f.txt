@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDIwOjA4OjQzLjQ2MDc1OSIsInVzZXJfaWQiOiJiMDdhMzQwYS1kYWEyLTRiYjgtOGQ0ZC0xNWQ5ZTBjOGIxMGQifQ.8dW8RcXjlzh_L9vkUfKNkOqcWpMs5dc6JUGis_Rprn8' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Able many class participant security form.","maxScore":72,"minScore":12,"description":"Despite build fact bag begin. Population best interview. Work coach appear firm despite size while name.\nRather door value measure rather company difference. Lawyer design American.","estimatedTime":"8 weeks","previewFileId":"563605b1-4afc-408c-afad-df9ff0c498bf","createdByUserId":"b07a340a-daa2-4bb8-8d4d-15d9e0c8b10d"}'

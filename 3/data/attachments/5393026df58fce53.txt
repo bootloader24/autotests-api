@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDIwOjA4OjQ0LjA0ODIzOSIsInVzZXJfaWQiOiJmNGIxODE3Mi0zNzliLTRhYjMtOWVkMi03Y2I2M2U0YzMxNWEifQ.42fAnMAMUPNxsnwkHUqlifDwDwCZq3cBvBXwF6hufWI' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Card save machine.","maxScore":71,"minScore":10,"description":"Wind data idea impact might. Know though painting himself attorney.\nAway structure line focus cause police. News green structure travel place little sometimes.","estimatedTime":"5 weeks","previewFileId":"9f99a08a-35a8-49a5-bb18-11ed9325223f","createdByUserId":"f4b18172-379b-4ab3-9ed2-7cb63e4c315a"}'

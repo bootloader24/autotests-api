@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a9b9e412-4528-4f77-83da-084249dc9257' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMwVDIwOjA4OjQ1LjIyMjU4OCIsInVzZXJfaWQiOiI1OGE0ODdiMC01OGQ3LTRlNzItYThjMy1lZTU1ODJjOTVkYmQifQ.PQd-fx42MVfh2ahXHPQg3_Fo5_IlQ22YANBOb6lFXFc' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Item child nor between animal network region.","maxScore":66,"minScore":17,"description":"Pretty wait development other. Without watch once several without want catch interview. Between reach forward project term read card plant. Doctor describe onto whom plant and we.","estimatedTime":"4 weeks"}'
