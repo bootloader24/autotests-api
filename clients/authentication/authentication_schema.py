@@ -7,7 +7,7 @@ class TokenSchema(BaseModel):
     """
     Описание структуры аутентификационных токенов.
     """
-    model_config = ConfigDict(validate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     token_type: str = Field(alias="tokenType")
     access_token: str = Field(alias="accessToken")
@@ -33,6 +33,6 @@ class RefreshRequestSchema(BaseModel):
     """
     Описание структуры запроса для обновления токена.
     """
-    model_config = ConfigDict(validate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     refresh_token: str = Field(alias="refreshToken", default_factory=fake.sentence)

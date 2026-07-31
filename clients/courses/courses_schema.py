@@ -9,7 +9,7 @@ class CourseSchema(BaseModel):
     """
     Описание структуры курса.
     """
-    model_config = ConfigDict(validate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     id: str
     title: str
@@ -25,7 +25,7 @@ class GetCoursesQuerySchema(BaseModel):
     """
     Описание структуры запроса на получение списка курсов.
     """
-    model_config = ConfigDict(validate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     user_id: str = Field(alias="userId")
 
@@ -41,7 +41,7 @@ class CreateCourseRequestSchema(BaseModel):
     """
     Описание структуры запроса на создание курса.
     """
-    model_config = ConfigDict(validate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     title: str = Field(default_factory=fake.sentence)
     max_score: int = Field(alias="maxScore", default_factory=fake.max_score)
@@ -63,7 +63,7 @@ class UpdateCourseRequestSchema(BaseModel):
     """
     Описание структуры запроса на обновление курса.
     """
-    model_config = ConfigDict(validate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     title: str | None = Field(default_factory=fake.sentence)
     max_score: int | None = Field(alias="maxScore", default_factory=fake.max_score)

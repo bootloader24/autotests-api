@@ -5,7 +5,7 @@ class UserSchema(BaseModel):
     """
     Описание структуры данных пользователя.
     """
-    model_config = ConfigDict(validate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     id: str
     email: EmailStr
@@ -18,7 +18,7 @@ class CreateUserRequestSchema(BaseModel):
     """
     Описание структуры запроса создания пользователя.
     """
-    model_config = ConfigDict(validate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     email: EmailStr
     password: str
