@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMxVDIxOjAwOjM2LjkyMDUzNyIsInVzZXJfaWQiOiJjM2FiNWFiZS00NGZmLTQ1YjctODY5Mi1jMzEwY2Q5YmZjZTYifQ.VNiJPnhu88pBCO5RjQmm67_kegW3eFMjHIGe1rzUx3I' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Or interest green.","maxScore":99,"minScore":18,"description":"Point bill accept far. Author boy inside bad debate partner.\nRole radio like soldier act follow above. Discover middle very produce parent miss.","estimatedTime":"10 weeks","previewFileId":"51685802-495a-4db3-b2a0-b1116f82d926","createdByUserId":"c3ab5abe-44ff-45b7-8692-c310cd9bfce6"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMxVDIxOjAwOjM4LjU1MzE5MSIsInVzZXJfaWQiOiI4OTI3ZjZkMS03MjdkLTRhYzgtOTlmYy01YzIyOTVkMThiM2QifQ.CvHKkKNLJ8MfjPSb47aNYSdYFujY2LUqxO3bZAUYyEE' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sell note business home some program probably.","maxScore":78,"minScore":3,"description":"Away opportunity project require. Though determine memory collection difference.\nThank low if than sometimes. First us black plan western use.","estimatedTime":"3 weeks","previewFileId":"cb0cddbc-57f4-421f-8cf2-955a5302163c","createdByUserId":"8927f6d1-727d-4ac8-99fc-5c2295d18b3d"}'

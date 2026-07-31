@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMxVDIxOjAwOjMyLjI0NjQ4OSIsInVzZXJfaWQiOiJiZjc0YjE2Ni1mODJlLTRjMzctYjUyYi04YWU1YTYzZmIwYmMifQ.XIxAxhi9pcHLal-O_8pNJR6p5JZfmTtelXBCSJMBiYg' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Image fill page just.","maxScore":60,"minScore":3,"description":"Yard successful certainly significant conference approach. Crime local generation other.\nProtect measure particular.\nAdd one ever unit season easy. Response nation article always camera teach.","estimatedTime":"9 weeks","previewFileId":"a0a105ca-9f6f-4602-bc64-6af5cf97c14c","createdByUserId":"bf74b166-f82e-4c37-b52b-8ae5a63fb0bc"}'

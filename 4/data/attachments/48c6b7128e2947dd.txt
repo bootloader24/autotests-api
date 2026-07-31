@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMxVDIxOjAwOjM0LjkwMTY1NSIsInVzZXJfaWQiOiIxMDNhOGJlZi1kODcyLTQ0YWUtYjU5Mi1mN2E5MzJlNWMxNjYifQ.6WSPv-O4pCcJNz3C3-rgedXWXvfQ7KE38GL8B-5-i3M' \
+  -H 'content-length: 289' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particular tree account walk.","courseId":"b88ba366-15d7-410a-b24a-2ad434dd30c4","maxScore":52,"minScore":27,"orderIndex":76,"description":"Property trial red art class rock. Quality prepare modern.\nDrop may hot general. Make time movie officer then.","estimatedTime":"2 weeks"}'

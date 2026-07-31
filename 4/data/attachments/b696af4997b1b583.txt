@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMxVDIxOjAwOjM2LjkyMDUzNyIsInVzZXJfaWQiOiJjM2FiNWFiZS00NGZmLTQ1YjctODY5Mi1jMzEwY2Q5YmZjZTYifQ.VNiJPnhu88pBCO5RjQmm67_kegW3eFMjHIGe1rzUx3I' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trade several language ok sport foreign.","courseId":"3d7dbf0b-8b4d-465e-9457-fe2af0f9d920","maxScore":83,"minScore":25,"orderIndex":65,"description":"Bed without view dark service. Head development company friend Democrat city lot.\nThose almost where. Space will really support.","estimatedTime":"9 weeks"}'

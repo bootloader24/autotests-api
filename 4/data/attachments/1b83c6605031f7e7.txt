@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMxVDIxOjAwOjMzLjU1MzA0OSIsInVzZXJfaWQiOiJlMTE2NjkwMi1lN2E5LTRiNmItOGIwOS00NzRjOGEzOTkxYWMifQ.-yMN7cH0qxxNdaPiY6nsP9OGBuhyXDVphzDi1j6uQDQ' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Class accept color specific maybe need remain.","courseId":"c7e46789-2567-4a1b-823e-956c969da1e4","maxScore":56,"minScore":30,"orderIndex":19,"description":"Ahead small benefit stuff. Put choice whole open then thousand. Skin medical seat.\nBeyond popular citizen pressure still push. Recent class everybody. Past gas plant right letter edge position.","estimatedTime":"3 weeks"}'

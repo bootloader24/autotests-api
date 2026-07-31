@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMxVDIxOjAwOjMzLjU1MzA0OSIsInVzZXJfaWQiOiJlMTE2NjkwMi1lN2E5LTRiNmItOGIwOS00NzRjOGEzOTkxYWMifQ.-yMN7cH0qxxNdaPiY6nsP9OGBuhyXDVphzDi1j6uQDQ' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decide stand interesting century see minute.","maxScore":65,"minScore":9,"description":"Itself beat since they big. Official in ball owner. Film add agent law notice when.\nTravel true prepare mission identify who.","estimatedTime":"8 weeks","previewFileId":"9870894c-f0e8-4b68-8f47-c085aaa19fec","createdByUserId":"e1166902-e7a9-4b6b-8b09-474c8a3991ac"}'

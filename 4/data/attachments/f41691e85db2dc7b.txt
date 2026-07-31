@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMxVDIxOjAwOjMyLjg5OTE4MSIsInVzZXJfaWQiOiJkNjk5MTQzYy1mZjMyLTRhNGUtYTcyZi01OTA0NzY5NzM3YjgifQ.Cawk0EhXVTEJFtNJ1KRi2CWJ5kGbPmm75jEl6K6w7uY' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Social happen bar executive statement three top.","maxScore":96,"minScore":3,"description":"Certain itself short stay old record. Conference want trade must.\nPressure green do or story thus. Soldier brother pay morning price.","estimatedTime":"7 weeks","previewFileId":"1a7c0a13-563d-4fac-a97b-fcb3a896dc30","createdByUserId":"d699143c-ff32-4a4e-a72f-5904769737b8"}'

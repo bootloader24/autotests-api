@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:89 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Image fill page just.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 60
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Yard successful certainly significant conference approach. Crime local generation other.
+Protect measure particular.
+Add one ever unit season easy. Response nation article always camera teach.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 9 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to a0a105ca-9f6f-4602-bc64-6af5cf97c14c
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to bf74b166-f82e-4c37-b52b-8ae5a63fb0bc
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4a767717-a442-4dbc-b499-3d4abf1b0d79' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMxVDIxOjAwOjM0LjIwMzkwOCIsInVzZXJfaWQiOiJhNmI2MTdiNi1mOWFhLTRhODgtOTYxYS1jMjljNGQ3NzU1NWYifQ.l5NnxxvkSy2M_5zLSJcZyHJXy4NuKeD9QO2DRy-0TJ8' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relationship she behavior time.","maxScore":64,"minScore":28,"description":"Art garden culture nature star. Senior tough technology. Wish along save account better nice.\nBody place good work. News direction realize authority ground.","estimatedTime":"5 weeks"}'
