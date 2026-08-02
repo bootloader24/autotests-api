@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjI1OjQxLjQ2Mjc1OCIsInVzZXJfaWQiOiIyNjE3ZTM0OC02MDg3LTRlZTQtYjI5My1mMjE1YjE1NTg3M2UifQ.FX34AR30qYbeyc21KVi1TOmR_0lbgC2AaUv-vpXPJpQ' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Test human world method.","maxScore":96,"minScore":14,"description":"Station article network. Policy benefit upon task memory girl. Economic writer ago they civil.","estimatedTime":"4 weeks","previewFileId":"92e0b640-06bb-4870-b38f-b0fd5d7637a6","createdByUserId":"2617e348-6087-4ee4-b293-f215b155873e"}'

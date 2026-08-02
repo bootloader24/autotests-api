@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjI1OjQyLjgxMzA2MCIsInVzZXJfaWQiOiIxOWM3OGEwNy03YjhlLTQwZGUtYTE1NS05YWU5YTkxZDI1Y2MifQ.zzzj9Rl-xgY4so3gRCgVEN9ZZ1nnrYznfOuoeR2TIc4' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Water parent or apply.","maxScore":68,"minScore":16,"description":"Author seat company six manager.\nAccount open rock open high lot cause. Their realize little stay personal else.","estimatedTime":"1 weeks","previewFileId":"479851da-6ef8-415b-b060-cc0327e6298c","createdByUserId":"19c78a07-7b8e-40de-a155-9ae9a91d25cc"}'

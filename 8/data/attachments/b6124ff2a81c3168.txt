@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjI1OjM4Ljg0NDE3MyIsInVzZXJfaWQiOiIyMGY0YTk1Yi1jNTdmLTQ1YjMtYjBiMy00MGI1YzNmZDllZTEifQ.DDMRovZI39IPw_dI9g4R1mKyRoreFf6C9yP2ND88_FY' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"East image keep threat thank course must or.","maxScore":72,"minScore":24,"description":"Church usually in law beyond. Media different check blood friend practice. President decade really message reveal decade.","estimatedTime":"9 weeks","previewFileId":"174ba954-d171-4d8a-9ef5-2ee10038d411","createdByUserId":"20f4a95b-c57f-45b3-b0b3-40b5c3fd9ee1"}'

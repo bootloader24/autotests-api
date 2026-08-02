@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjI1OjQxLjc3MDU1MyIsInVzZXJfaWQiOiI2Njk4MTg2MS01OWExLTQ0NDgtYWUzMS02ODg3ZDY5MzViYjcifQ.Uytgh-hDuma3frIZ-0wQ1vHB30xhGjJ3CDvoPJm3uWI' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cover piece plant heart whatever father sit.","maxScore":67,"minScore":24,"description":"Expect rest parent station.\nSuccessful yes discover imagine sister manager human can. Design sure wonder back.\nLanguage international though significant charge. Audience push break.","estimatedTime":"4 weeks","previewFileId":"a4e694f7-7b78-48f0-ac19-efae3fa39cd8","createdByUserId":"66981861-59a1-4448-ae31-6887d6935bb7"}'

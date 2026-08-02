@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjI1OjQ1Ljg1NDE1MiIsInVzZXJfaWQiOiIzN2IyY2E5OS03MzJjLTQyNjYtODEyNy1mZTMzMTFjYzU3MzYifQ.DLnmzeClql3sJjnvgK2oUgTKcEeyqDo6J_hXcoA6XQI' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Behind party commercial ability although meeting.","maxScore":79,"minScore":5,"description":"Nothing rise hand remember necessary thank. Couple exactly eight never instead. Coach computer learn nation.","estimatedTime":"3 weeks","previewFileId":"2db0e863-2c81-40a4-85fc-d23f1db06235","createdByUserId":"37b2ca99-732c-4266-8127-fe3311cc5736"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjI1OjQ0LjQ5NDcyNCIsInVzZXJfaWQiOiI1NWM5NjgxZS1kMzc3LTQ4MzctYTYwZS1kZjUxNTY4ODU1NDEifQ.1qC5nEQHK03liuu33uebfVqZ7sN-DT5JRdtfGU33Xqs' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Represent avoid star agent trial once.","maxScore":79,"minScore":4,"description":"Beat ever feeling risk first happen tend.\nIndustry wish investment community future somebody. Skill indicate true form water provide play.","estimatedTime":"4 weeks","previewFileId":"ae96ecc9-8011-43eb-8c2b-ee487ba40fb0","createdByUserId":"55c9681e-d377-4837-a60e-df5156885541"}'

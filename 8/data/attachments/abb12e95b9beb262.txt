@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/7e3a422e-2101-4e2e-b59e-0fb128e4c56d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjI1OjQxLjQ2Mjc1OCIsInVzZXJfaWQiOiIyNjE3ZTM0OC02MDg3LTRlZTQtYjI5My1mMjE1YjE1NTg3M2UifQ.FX34AR30qYbeyc21KVi1TOmR_0lbgC2AaUv-vpXPJpQ' \
+  -H 'content-length: 282' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Truth discuss level may part though size although.","maxScore":70,"minScore":17,"description":"Next health four father home line begin. Still anything claim send line back.\nEast drive reason guy compare mission. Bit quality piece why against.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjI1OjQwLjQyOTc4OCIsInVzZXJfaWQiOiIyNWRkMDQxNS0zZWU5LTQyZjUtYTMxZS00NGVkYjI4ZGY4N2UifQ.UiREAV48rwxfoI7nl8xkxoErzmREhYCvHgIXlfoDa54' \
+  -H 'content-length: 290' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dream seek machine sometimes across visit.","courseId":"3effc420-5aed-4b22-8c4b-f70f8b87ffa3","maxScore":65,"minScore":17,"orderIndex":67,"description":"Suddenly sometimes most soon whole appear box follow. South close list since author home newspaper.","estimatedTime":"6 weeks"}'
