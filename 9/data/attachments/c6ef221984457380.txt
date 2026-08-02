@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjI4OjQyLjY1NTI2MSIsInVzZXJfaWQiOiIzZmM5NWEwZC1jMTFiLTRiMzAtOGQwNi04ZGJhNjhiMDM5MTAifQ.-gx6g1ThBQT8djcZLijA_8ftRykQjwEkb6vHRTlsDqM' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Score whom positive east.","maxScore":85,"minScore":17,"description":"Deep quality wear. Develop hot husband difference.\nBuy community simply of indeed sport think. Per government year none.","estimatedTime":"3 weeks","previewFileId":"9f7b8734-4631-4fe4-822f-f3fa851b9c2e","createdByUserId":"3fc95a0d-c11b-4b30-8d06-8dba68b03910"}'

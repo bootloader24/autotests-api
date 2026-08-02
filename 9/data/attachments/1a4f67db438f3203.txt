@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjI4OjQwLjg2NTkyOCIsInVzZXJfaWQiOiJkMmJmYTBmOC1hM2NkLTRlOTItYjhhNi0wODViY2Y3MTc3YzUifQ.xOBzNat_5MK1_qmrItrLJ_Ghs0qjZFwhddQoBLQrPqA' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hope thing decade local site face age.","maxScore":80,"minScore":18,"description":"Figure police within most effort manage Mrs exist. Performance environmental line wear beat. Ask couple range. Place skin front door end.","estimatedTime":"6 weeks","previewFileId":"8be1196b-9eee-42e1-891d-b7b5d66f7460","createdByUserId":"d2bfa0f8-a3cd-4e92-b8a6-085bcf7177c5"}'

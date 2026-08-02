@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjI4OjM4LjQ4MTU4MyIsInVzZXJfaWQiOiJjYTU3YTJhYy05NzVhLTQzZjUtOTdkNC0yYjRhZmU5NzNiYjQifQ.xdBYC0HVI4OQLibGsKbdclNUYV6y3GJAB-1U7tEG9AY' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Step black accept any science.","maxScore":92,"minScore":20,"description":"Former appear laugh student. Source wait visit clear.\nFor fly my base control agency buy. Big kid project material.\nCivil majority again one. By anything find partner operation watch.","estimatedTime":"3 weeks","previewFileId":"f9ff80c8-ce02-425f-8c5f-2f7ce8befd40","createdByUserId":"ca57a2ac-975a-43f5-97d4-2b4afe973bb4"}'

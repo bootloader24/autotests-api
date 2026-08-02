@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjI4OjM5LjY0ODYzNiIsInVzZXJfaWQiOiI2MDYzZmQwOS0wYTkzLTQxZmEtOWY5Mi1lNDZmOGFkZDhkNGMifQ.feepI_NIO5XBTlQafechQF0soQnDIHuqmTQHos3B9jE' \
+  -H 'content-length: 435' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deal interest development social member.","maxScore":65,"minScore":27,"description":"Real training close mind relationship help. Arm miss shake shake rise. Something reality for color success.\nGeneral here result. We realize notice method. Response beyond left response six continue.","estimatedTime":"10 weeks","previewFileId":"595d99ee-879f-4a77-98f8-a6e3ac79b9e8","createdByUserId":"6063fd09-0a93-41fa-9f92-e46f8add8d4c"}'

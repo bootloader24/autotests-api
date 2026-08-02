@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjI4OjQwLjg2NTkyOCIsInVzZXJfaWQiOiJkMmJmYTBmOC1hM2NkLTRlOTItYjhhNi0wODViY2Y3MTc3YzUifQ.xOBzNat_5MK1_qmrItrLJ_Ghs0qjZFwhddQoBLQrPqA' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"That week if ok involve financial finally.","courseId":"6fcb41d4-820d-4a55-b0f9-fe6b82e89de5","maxScore":93,"minScore":4,"orderIndex":85,"description":"Across opportunity majority parent pattern audience. Under begin customer seem edge run religious.\nFor head source work scientist rather little. Become scene half. Fight situation best him specific.","estimatedTime":"3 weeks"}'

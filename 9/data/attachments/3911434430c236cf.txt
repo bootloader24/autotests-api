@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjI4OjQzLjg2MjgyNiIsInVzZXJfaWQiOiI4ODkwZDYyZi1kYjJjLTQwYmYtOTEzYS1mNjJkNGRjZDRjNWEifQ.y0J__vZErjAlXYsiEkprxVBhZ0u9cRlWSBT8sIMggno' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Already weight land air college.","maxScore":72,"minScore":23,"description":"Ten me yet prove meeting a stock. Light indeed must general scientist. Popular shake age meeting church according author.\nBig go front role. South commercial short thus your military.","estimatedTime":"10 weeks","previewFileId":"d6b7ccd6-94fd-4dd2-ae35-9a625dc1c5cc","createdByUserId":"8890d62f-db2c-40bf-913a-f62d4dcd4c5a"}'

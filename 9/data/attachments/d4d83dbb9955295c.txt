@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjI4OjM3Ljg5MTM5NyIsInVzZXJfaWQiOiI1ODEwNzEyNi00NjdhLTQ3YTYtOTUzNi0xMWRjMTczMzRiZTgifQ.u0jYY9USlT91FWnI6bPjzQZNIPHQKkki30uV29DiNrs' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Republican produce image assume election center.","maxScore":69,"minScore":16,"description":"Huge spring ball blood election. Say allow arrive analysis police certainly. Deep Democrat finish task social record.\nThrow month conference. Laugh usually without ahead game could.","estimatedTime":"8 weeks","previewFileId":"99f93c6c-d554-459d-8ad8-b658a1ad933c","createdByUserId":"58107126-467a-47a6-9536-11dc17334be8"}'

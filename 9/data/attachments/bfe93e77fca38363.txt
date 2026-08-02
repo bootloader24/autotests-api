@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjI4OjQzLjg2MjgyNiIsInVzZXJfaWQiOiI4ODkwZDYyZi1kYjJjLTQwYmYtOTEzYS1mNjJkNGRjZDRjNWEifQ.y0J__vZErjAlXYsiEkprxVBhZ0u9cRlWSBT8sIMggno' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Real military ground stage food instead glass indicate.","courseId":"43da0990-5b2c-44c9-aecf-fe754add19d7","maxScore":96,"minScore":13,"orderIndex":15,"description":"Want that strategy research charge Republican attack realize. Book mission degree person. Because sit similar.\nManagement same type number always sound opportunity main. Key occur three would scene.","estimatedTime":"2 weeks"}'

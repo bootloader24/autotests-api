@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjI4OjM5LjA2NDc5NSIsInVzZXJfaWQiOiI2MzRkMjQ3Ny05MDZmLTQwMDUtOTc2NC04ZTYxYmYxNzE0MDcifQ.XuJQv6M2H-wsc804tbTXFaN_EyGsgLCWs4jFoO_6ckk' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Computer teach nature threat war hundred.","maxScore":65,"minScore":9,"description":"Stay your strategy spring approach nothing. Happy citizen how seem social who some.\nRecord continue four often drive east. Foreign research government thank.","estimatedTime":"7 weeks","previewFileId":"a5d64627-1a2c-4c22-894a-f15c622fa44c","createdByUserId":"634d2477-906f-4005-9764-8e61bf171407"}'

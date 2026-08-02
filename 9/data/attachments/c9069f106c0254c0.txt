@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjI4OjQwLjIzMzIyOSIsInVzZXJfaWQiOiJkOWNmMWVhMS1jODdmLTQxOTctYmFlYS03Y2NjMmU1OGU0YWQifQ.yOek-2M1vA3OCsqLtl8vq1dXfqj9PxeyAu_xQwmpinU' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Step hospital support couple wall.","maxScore":93,"minScore":9,"description":"Dark per fire dark number right race. We organization heavy field. Writer represent outside wind season under.","estimatedTime":"8 weeks","previewFileId":"4f234e92-5069-484b-be0b-790c5c95567a","createdByUserId":"d9cf1ea1-c87f-4197-baea-7ccc2e58e4ad"}'
