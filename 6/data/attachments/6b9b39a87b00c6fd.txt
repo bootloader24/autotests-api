@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjA5OjI2LjQyOTgwOCIsInVzZXJfaWQiOiI1YzhkZWI1OS1mOTBmLTQzMjYtYjVjZS00MjUwOWY5YjgyNmUifQ.vxWgBHGlhyIeBCdH2rzudcKzB9_vM_R54nYgtvahbs0' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Also price like well most order.","courseId":"5b1aa134-4105-4e1a-ad2f-591179f63ddf","maxScore":63,"minScore":20,"orderIndex":19,"description":"Investment wrong rule they visit. Result opportunity food newspaper finish. Either right scientist their admit wide end.\nEverything moment particular. Air imagine speak born information tough.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjA5OjI2LjQyOTgwOCIsInVzZXJfaWQiOiI1YzhkZWI1OS1mOTBmLTQzMjYtYjVjZS00MjUwOWY5YjgyNmUifQ.vxWgBHGlhyIeBCdH2rzudcKzB9_vM_R54nYgtvahbs0' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eye yet city might phone.","maxScore":79,"minScore":18,"description":"Space newspaper pass. Law responsibility set interview beat.\nTerm type so serious. First structure style there maintain support whom. Institution energy participant Republican catch candidate.","estimatedTime":"10 weeks","previewFileId":"965b77dc-2bdb-4a46-8893-ec05714a207b","createdByUserId":"5c8deb59-f90f-4326-b5ce-42509f9b826e"}'

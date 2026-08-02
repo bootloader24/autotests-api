@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjA5OjIzLjcwNTk2MSIsInVzZXJfaWQiOiI3OTc2N2VjNS1jNDJlLTQ0ZTktYTg4OC0xMzNlOTk4N2ZhNTQifQ.XJwXbOeDPSrJWO6K5HIMSJeCsZpcbwKXkmfHj-SusVE' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Impact picture against way current public remain.","maxScore":68,"minScore":18,"description":"Occur skill quality cup environmental ball. Step leg work blood give base. Area college child onto tough various environmental case.","estimatedTime":"10 weeks","previewFileId":"d3446d2c-2357-4821-b493-0831870dd693","createdByUserId":"79767ec5-c42e-44e9-a888-133e9987fa54"}'

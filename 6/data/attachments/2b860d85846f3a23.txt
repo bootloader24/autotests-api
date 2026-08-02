@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make PATCH request to http://localhost:8000/api/v1/exercises/8d59db36-9256-41ee-8311-955586a71392
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/8d59db36-9256-41ee-8311-955586a71392
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:87 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Wife serious lead wear to.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 65
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 6
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 21
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Live hold character seek. Wear walk name stock throughout wear something capital. Field hear although herself will test.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

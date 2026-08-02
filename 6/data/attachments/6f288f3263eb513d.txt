@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjA5OjIyLjc3MjE3MiIsInVzZXJfaWQiOiI0M2EyNDMzOS01MGVhLTRlMjctYmU4Ni03NWU1MDcyZjQ5YjkifQ.kFLPE-cdOy6jXI3QpY0iCuYdwQEW9I7dE_sOz6J32mQ' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Physical before happy.","maxScore":54,"minScore":15,"description":"Day drug huge its certain today. Society style class. Trial according they next middle.\nEnough meet challenge so ahead center. Build exactly check middle.","estimatedTime":"4 weeks","previewFileId":"6f896545-8af1-4824-bc09-bd44ebbd7e77","createdByUserId":"43a24339-50ea-4e27-be86-75e5072f49b9"}'

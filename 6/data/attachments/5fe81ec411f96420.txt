@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjA5OjIyLjQ5ODY4OSIsInVzZXJfaWQiOiJiMzBhNTA2ZS1lZjFlLTQxZDEtYjE2ZS0yYzUxZmI1MjFlNDQifQ.9Cxwy9MASXnlRrqw6zUriqj-XOgFBxjpkIHCCepixO4' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Worry bar sea actually issue.","maxScore":61,"minScore":14,"description":"Tree address us election civil past. Statement each approach either then seek build.\nPeace find chair across. Soldier knowledge head range letter table which bag.","estimatedTime":"10 weeks","previewFileId":"c09eb402-664a-4b25-838a-ff9dc1ff99fc","createdByUserId":"b30a506e-ef1e-41d1-b16e-2c51fb521e44"}'

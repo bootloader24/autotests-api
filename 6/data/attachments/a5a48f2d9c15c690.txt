@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjA5OjI1LjE5NzgwNSIsInVzZXJfaWQiOiJhNDMxMDI3Yi1jYTkzLTRkYzItYTQzOC03NWM1YzBjN2RiNGIifQ.-76UNgGYq0pcu90NTKMV19_iEENcO56oXyukhlbGez8' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"As similar charge million assume director sign.","courseId":"df9f3c55-08fb-4b51-a154-551b91238cd8","maxScore":75,"minScore":14,"orderIndex":41,"description":"Fast daughter deal nation thank only. Suddenly president hotel their organization. Follow local large per lose just.","estimatedTime":"3 weeks"}'

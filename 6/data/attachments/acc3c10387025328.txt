@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjA5OjIwLjE1NzgzMiIsInVzZXJfaWQiOiI4MTE2YTNiNS01OGIxLTQ4NjgtOTY2NC0xYWM4YWFhMDFkMGMifQ.O7pfNcYGxipwvcGjV-IKAumPwP5TPvh60ETCCYjO5jk' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reality but style rate fast hundred.","maxScore":90,"minScore":6,"description":"Fish involve resource last. Pick book myself lot half Mrs six. Method anything yes all.\nBag decide pull reflect we trip. Arrive strategy top last. Young stuff would none husband she.","estimatedTime":"8 weeks","previewFileId":"1c01cbe7-25d7-4f92-a866-a4a58ee5a573","createdByUserId":"8116a3b5-58b1-4868-9664-1ac8aaa01d0c"}'
