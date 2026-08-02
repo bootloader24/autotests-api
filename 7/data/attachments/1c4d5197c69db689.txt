@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjIyOjQ1LjcyOTQ5NyIsInVzZXJfaWQiOiI5ODc4NTFmZi1mMmYzLTQ1OGItYTkwNS00NDVlN2QzODU5MjkifQ.WBIqa9ue4BxdObCqj2wuxnWeYxwWJr92bOYKEeiZ-H8' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"International ball so boy language.","maxScore":70,"minScore":16,"description":"Four star environmental story. Director vote agreement car cover. Structure office glass design fill third fact back.\nUnderstand culture middle mouth. Size one mind maintain seek light.","estimatedTime":"4 weeks","previewFileId":"27458a6c-62d4-478e-b014-7da844b57906","createdByUserId":"987851ff-f2f3-458b-a905-445e7d385929"}'

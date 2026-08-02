@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjIyOjQ2LjAwNTAwMCIsInVzZXJfaWQiOiJjMTZlODc4Yy1iNzA0LTQyZDUtODNmMC04MWU1MTYyZDE0ZDEifQ.NgTC0UYmASZw_2KpdH05VhwvDqkUARfDj2L15kPIphc' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"From Democrat its deal audience site sing morning.","maxScore":98,"minScore":30,"description":"Film rather relationship myself million recently. Accept since station. Expert move entire prevent.\nShow teacher loss who. Laugh student run claim. Five once help process scientist population.","estimatedTime":"9 weeks","previewFileId":"89915029-484f-4288-abed-69007ca86d6d","createdByUserId":"c16e878c-b704-42d5-83f0-81e5162d14d1"}'

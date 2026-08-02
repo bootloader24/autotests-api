@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjIyOjUwLjg0ODQ2NiIsInVzZXJfaWQiOiIyOWMwODU2ZC1jODY4LTRkMzMtYWQzOC0yYjhiZGNhN2M5OGMifQ.7SJiCiyDva3g6_tBBfr2MIBNNxaALqDvMbajdt1NhPc' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bar despite culture seven human remain.","maxScore":74,"minScore":8,"description":"Company despite seven field. Mouth red probably team. Minute lose body research lead traditional food. Policy in suddenly stage often few room.","estimatedTime":"4 weeks","previewFileId":"809948a9-7898-4531-80da-d42d03a1aaa3","createdByUserId":"29c0856d-c868-4d33-ad38-2b8bdca7c98c"}'

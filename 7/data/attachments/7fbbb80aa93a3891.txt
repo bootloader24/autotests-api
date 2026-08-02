@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/477044a9-73e9-43db-b73e-63f17248c9c8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjIyOjQ2LjkyNTkzMSIsInVzZXJfaWQiOiI3NGYxZmJiYy1hYmIxLTQ3OGYtOWFjNi0zNzU5NTY1ODcxZWQifQ.ARVAvvELnnu0AxJ4g_bVTaJimZDOEKoOTPapyIbhUtQ' \
+  -H 'content-length: 246' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Newspaper product other exist money structure.","maxScore":90,"minScore":4,"description":"Development lay cold use safe various close. Daughter state beautiful. Just church tend fish remember fund poor young.","estimatedTime":"8 weeks"}'

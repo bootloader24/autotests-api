@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/9939825c-7395-49ff-a13b-11813c170010' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjIyOjQ4LjEzODAzMCIsInVzZXJfaWQiOiJjYTg3ZWVlMC05NjFhLTQ4YTItODRhZi0yZWUwN2Y0YjE1NzcifQ.0s9FovbZB1pXGByU0giEJuh0ucptDQg2tgfBL_FMPD0' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Economy explain usually from entire begin others season.","maxScore":99,"minScore":10,"orderIndex":16,"description":"Performance crime choice decide risk player director. Bring I report maintain still each.\nColor see seem news expect receive road theory. Research attack bag adult.","estimatedTime":"10 weeks"}'

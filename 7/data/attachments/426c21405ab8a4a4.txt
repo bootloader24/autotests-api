@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjIyOjQ5LjYyODg2NSIsInVzZXJfaWQiOiI4YjkwYjM4ZS1jYThiLTQyMzEtYWYyZC1kN2JjNjA2NjE0NWUifQ.ecvSRQKPeieM9dBC24e5K5BtbYCdztUPPhU6KuRVs-c' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Discussion tonight back his class address.","maxScore":97,"minScore":11,"description":"Improve back many produce trouble deep bad. Couple but anyone international girl. State shake degree care high. Prepare move page understand process respond indeed set.","estimatedTime":"7 weeks","previewFileId":"0b9c4c59-e419-4e88-bea3-6338756ee14f","createdByUserId":"8b90b38e-ca8b-4231-af2d-d7bc6066145e"}'

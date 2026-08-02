@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjIyOjQ4LjEzODAzMCIsInVzZXJfaWQiOiJjYTg3ZWVlMC05NjFhLTQ4YTItODRhZi0yZWUwN2Y0YjE1NzcifQ.0s9FovbZB1pXGByU0giEJuh0ucptDQg2tgfBL_FMPD0' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"According water ok body lead.","maxScore":99,"minScore":27,"description":"Contain public director nice front. Year source daughter prepare north individual approach.\nAnything result question light speech myself. Include eat push responsibility provide onto language person.","estimatedTime":"8 weeks","previewFileId":"fce73ba6-e90e-4e76-a5a5-bf1498214fdb","createdByUserId":"ca87eee0-961a-48a2-84af-2ee07f4b1577"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjIyOjQ2LjkyNTkzMSIsInVzZXJfaWQiOiI3NGYxZmJiYy1hYmIxLTQ3OGYtOWFjNi0zNzU5NTY1ODcxZWQifQ.ARVAvvELnnu0AxJ4g_bVTaJimZDOEKoOTPapyIbhUtQ' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"There study course mission whom take.","maxScore":71,"minScore":24,"description":"Happy local doctor goal power stay. Site outside yard to school. Future throw real how. Eight huge capital little.","estimatedTime":"6 weeks","previewFileId":"e69dcbba-96c2-4ae4-93ef-77395936efba","createdByUserId":"74f1fbbc-abb1-478f-9ac6-3759565871ed"}'

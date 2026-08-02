@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAyVDE5OjIyOjQ0LjU4MDQwNCIsInVzZXJfaWQiOiJhYzc4NzNmOC1mNWJiLTQ4YmItYjBlMC0zMWYzZmYyMGRiNmYifQ.5Z_V3_APoG2TrlmZThQXZPTsOuh4F3qpYCvMwHsH4jc' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Difference member power federal speak strategy risk risk.","maxScore":87,"minScore":8,"description":"Minute job activity four government environment citizen. Figure still let lawyer majority teach bed.\nMinute second remember.\nAvailable ever never notice meet century voice.","estimatedTime":"3 weeks","previewFileId":"fa593d44-986d-4e20-8124-30f911bf4808","createdByUserId":"ac7873f8-f5bb-48bb-b0e0-31f3ff20db6f"}'
