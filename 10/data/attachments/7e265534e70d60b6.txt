@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/e093b81a-c41e-495d-9514-af83e7dcdf60
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/e093b81a-c41e-495d-9514-af83e7dcdf60
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:70 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to e093b81a-c41e-495d-9514-af83e7dcdf60
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Seem because sing phone continue oil.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to ab21c73d-fc9c-46b2-9f88-d51a800859be
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 58
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 20
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 3
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Bank his gun area cover interesting. Recognize hand federal ask couple man. Fall term special author order.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

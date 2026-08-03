@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAzVDEyOjQ1OjI1LjI2NzAyNiIsInVzZXJfaWQiOiJiZGIwYWUzOS00MTRkLTRlNDgtYTA2Yy1kYmFiNDg5NDM3YzAifQ.IX5S1CghALQr-lbdLfmHtkBwPZDDuOSaoYLSGp-l328' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attorney provide indeed ever.","maxScore":50,"minScore":4,"description":"Foot none part participant.\nScience decision out within dream be develop. Politics doctor couple process particularly card full.","estimatedTime":"6 weeks","previewFileId":"1c68b70c-fd59-4be4-a3d8-f85466c7a634","createdByUserId":"bdb0ae39-414d-4e48-a06c-dbab489437c0"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/96d29c80-cf00-404b-b160-cd0050663c49' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAzVDEyOjQ1OjIzLjc3NDE5MiIsInVzZXJfaWQiOiI1NTkwNzdkMy0xYzI3LTRhN2YtYWRhNS1hZDczNWFjMzIwYWEifQ.Er5MoGgMxo2qXty08QKwjaU3ud0LOjs5WmfddvnEp5E' \
+  -H 'content-length: 256' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Laugh argue general tax return guess.","maxScore":83,"minScore":8,"description":"Kitchen international especially become. People under fast think apply.\nAgent skill outside sing girl. Summer though plant benefit task.","estimatedTime":"1 weeks"}'

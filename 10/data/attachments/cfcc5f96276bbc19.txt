@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAzVDEyOjQ1OjI1Ljg1NDMyOCIsInVzZXJfaWQiOiI0NGU5ODViZS0yMDZlLTRmY2YtYWU4Ny1mOTUxNDk4YWE1MDgifQ.W0RJ4OpsgMmJe0J71okrJZgCXnSVqhvbBhoLmXr5Iv4' \
+  -H 'content-length: 435' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tonight dream care save create show student wear.","maxScore":86,"minScore":28,"description":"Next view moment direction owner speech. Future structure each analysis purpose education color meet. Day himself approach.\nActually three without. Leg catch population benefit reflect cost.","estimatedTime":"7 weeks","previewFileId":"ca6608ce-f61f-4533-95ae-ec8939c8b61e","createdByUserId":"44e985be-206e-4fcf-ae87-f951498aa508"}'

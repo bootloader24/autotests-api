@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAzVDEyOjQ1OjI3LjY5MzE5MyIsInVzZXJfaWQiOiIyZmJiZGIwOS1lM2YwLTQ4MzEtOTY1ZS0wZmJhOWE5YTFjZjIifQ.5j8SjuooFNUBayKKTE47vtLCqBJIzw7RNjl1vyi5U8E' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Minute view figure describe drop together.","maxScore":65,"minScore":15,"description":"The glass health. Suffer health challenge spring require. Than left thought increase available water institution.\nAdministration leader finish may. Trade drive play. Somebody response eight.","estimatedTime":"6 weeks","previewFileId":"c5016f9c-d9fd-44c7-8c10-43e08769d0ab","createdByUserId":"2fbbdb09-e3f0-4831-965e-0fba9a9a1cf2"}'

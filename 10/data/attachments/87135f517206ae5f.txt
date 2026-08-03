@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAzVDEyOjQ1OjI3LjA2OTIwMCIsInVzZXJfaWQiOiI3OWRlOTZmZC03NDk0LTQwOWEtOTk5MS00ZjQxN2YxNzZlYWIifQ.A4e8eBNOvo9C__GIzsKS17IsS-UKp7-wTBnN4m2ikUs' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Many trade wall learn outside.","maxScore":87,"minScore":2,"description":"Some rule career soldier finally. Air product pull current other religious. Different glass finally later ball street quickly why.","estimatedTime":"10 weeks","previewFileId":"b67a732e-a267-44ec-abcf-0f0f25d2a325","createdByUserId":"79de96fd-7494-409a-9991-4f417f176eab"}'

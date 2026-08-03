@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAzVDEyOjQ1OjI4LjM0MzcxNSIsInVzZXJfaWQiOiJkYWRhZDE4Yi1hY2FlLTQyMjgtOTkzNi03YTkxMzk0YWFkOTUifQ.BPXVSyGKK0fSYcTcyRfRNN9v48hoBykaeqLeLXRXhio' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Accept material catch risk kid animal language.","maxScore":70,"minScore":7,"description":"None government military base smile development music. Animal those officer prepare. Recently resource drop better cell.","estimatedTime":"4 weeks","previewFileId":"13885f2b-e3c4-4179-9ee0-2439958515db","createdByUserId":"dadad18b-acae-4228-9936-7a91394aad95"}'

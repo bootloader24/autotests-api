@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAzVDEyOjQ1OjI2LjQzOTA4NCIsInVzZXJfaWQiOiJkZmIwNWMyYS1mMzU0LTQ2NGItYjZhYS1jMDA5ZjU3YWQwZWMifQ.SRTxCG2EveZisCSeUM3XVs2YKDLAHkIB-QIMLF3U8_U' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"System space remember charge because mission.","maxScore":78,"minScore":21,"description":"Card pull five beautiful. Food in example something evening.\nHalf system present discover. Least industry beautiful. Yes deal worry quality action.","estimatedTime":"8 weeks","previewFileId":"84497caa-0513-4a6e-bb91-6e7b8debd44e","createdByUserId":"dfb05c2a-f354-464b-b6aa-c009f57ad0ec"}'

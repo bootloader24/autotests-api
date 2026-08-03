@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAzVDEyOjQ1OjI0LjY3NDU1NiIsInVzZXJfaWQiOiIzMTU1YmRmNS04OThiLTQ0N2UtODAwZS03OTgxZjAyMTZjYTUifQ.HbyZvVcHRBy2rQtoGUee1kjIZ920ADvsWmLxWWLTf28' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kid occur picture indeed.","maxScore":58,"minScore":25,"description":"Enjoy look successful discuss some employee. Necessary line during amount first.\nDrive right authority any. Democrat like key trial truth take. Side third conference policy.","estimatedTime":"5 weeks","previewFileId":"2b645323-e314-4fbe-894d-9e925174b26c","createdByUserId":"3155bdf5-898b-447e-800e-7981f0216ca5"}'

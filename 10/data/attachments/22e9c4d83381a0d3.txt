@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAzVDEyOjQ1OjI1Ljg1NDMyOCIsInVzZXJfaWQiOiI0NGU5ODViZS0yMDZlLTRmY2YtYWU4Ny1mOTUxNDk4YWE1MDgifQ.W0RJ4OpsgMmJe0J71okrJZgCXnSVqhvbBhoLmXr5Iv4' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Big site wall father learn resource theory.","courseId":"70b4dcdb-25a4-4cdb-8729-cb85fab6e941","maxScore":96,"minScore":26,"orderIndex":71,"description":"Head myself story I opportunity win training above. Play way couple race east. Whatever think instead fact.\nFight summer term season public personal idea. Take own book father support.","estimatedTime":"9 weeks"}'
